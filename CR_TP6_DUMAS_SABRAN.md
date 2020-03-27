@@ -77,7 +77,9 @@ Maxime Dumas & Raphaël Sabran
 ![5](https://user-images.githubusercontent.com/62430323/77759017-4a935000-7034-11ea-9cb6-dd2c53707f13.png)
 ### 6. Utilisez la commande modinfo pour obtenir des informations sur le module hello.ko ; vous devriez notamment voir les informations figurant dans le fichier C :
 > En exécutant la commande ``modinfo hello.ko`` on observe ceci :
+
 ![6](https://user-images.githubusercontent.com/62430323/77759021-4bc47d00-7034-11ea-9380-3be19ed012fa.png)
+
 > On retrouve effectivement la version, la description, l'auteur ou encore la licence, qui sont tous présent dans le **.c**.
 
 ### 7. Déchargez le module ; vérifiez dans le journal du noyau que le message ”La fonction cleanup_module() est appelée” a bien été inscrit, synonyme que le module a été déchargé ; confirmez avec la commande lsmod :

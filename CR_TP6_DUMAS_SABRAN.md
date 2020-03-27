@@ -53,7 +53,7 @@ Maxime Dumas & Raphaël Sabran
 > On observe bien un changement de résolution au démarrage.
 
 ### 6. On va à présent ajouter un fond d’écran. Il existe un paquet en proposant quelques uns : grub2-splash-images (après installation, celles-ci sont disponibles dans /usr/share/images/grub).
-> On rajoute dans le fichier /etc/default/grub ``GRUB_BACKGROUND="/usr/share/images/BonsaiTridentMapple.tga"``.
+> On rajoute dans le fichier /etc/default/grub ``GRUB_BACKGROUND="/usr/share/images/BonsaiTridentMaple.tga"``.
 > On observe bien le fond d'écran au démarrage.
 
 ![TP6Admin-2](https://user-images.githubusercontent.com/62430323/77759134-7d3d4880-7034-11ea-9813-6c5b5527bb05.PNG)
